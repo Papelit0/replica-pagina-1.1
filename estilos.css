@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .barra,
 .quienSoy,
 .rojo,
@@ -12,6 +13,7 @@
     padding-left: 18%;
     padding-right: 18%;
 }
+
 .boton {
     background-color: #ff3b19;
     color: #ffffff;
@@ -22,6 +24,7 @@
     font-weight: bold;
     font-size: 13px;
 }
+
 .barra {
     background-color: #2b303a;
     padding-top: 15px;
@@ -30,20 +33,24 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .logo {
     color: #ffffff;
     font-size: 20px;
 }
+
 .logo span {
     color: #cccccc;
     font-weight: normal;
 }
+
 .links a {
     color: #cccccc;
     text-decoration: none;
     margin-left: 20px;
     font-size: 14px;
 }
+
 .quienSoy {
     background-color: #ffffff;
     padding-top: 50px;
@@ -52,6 +59,7 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .ladoIzq {
     width: 46%;
 }
@@ -60,6 +68,7 @@
     width: 100%;
     border-radius: 8px;
 }
+
 .ladoDer {
     width: 48%;
 }
@@ -69,12 +78,14 @@
     font-size: 36px;
     margin-bottom: 15px;
 }
+
 .parrafo {
     color: #666666;
     font-size: 14px;
     line-height: 1.6;
     margin-bottom: 20px;
 }
+
 .rojo {
     background-color: #ff3b19;
     color: #ffffff;
@@ -85,29 +96,92 @@
     align-items: center;
     text-align: center;
 }
+
 .fotoRedonda {
     width: 230px;
-    height: 230px;
-    border-radius: 50%; 
+    height: 215px;
+    border-radius: 50%;
     margin-bottom: 15px;
 }
+
 .texto {
     font-size: 15px;
     line-height: 1.6;
     margin-bottom: 10px;
 }
+
 .nombre {
     font-style: italic;
     font-size: 14px;
 }
+
 .proyectos {
     background-color: #ffffff;
     padding-top: 50px;
     padding-bottom: 50px;
 }
+
 .titulo {
     text-align: center;
     font-size: 32px;
     margin-bottom: 30px;
     color: #333333;
+    font-weight: lighter;
+
+}
+
+.cajas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 25px;
+}
+
+.cajas>div {
+    border-radius: 4px;
+    border: 1px black;
+    box-shadow: 0px 0px 1px 1.5px rgba(0, 0, 0, 0.096);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.cajas img {
+    width: 288px;
+    height: 110px;
+    font-size: 14px;
+    border-radius: 4px 4px 0 0;
+}
+
+.cajas h3 {
+    margin-top: 14px;
+    margin-bottom: 12px;
+    color: #333333;
+    font-weight: lighter;
+}
+
+.cajas .boton {
+    margin-top: 14px;
+    margin-bottom: 12px;
+    padding: 8px 13px;
+}
+
+.cajas p {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: lighter;
+}
+
+.pie {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #2b303a;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pie p {
+    color: #ffffff;
+    font-weight: normal;
+    text-align: right;
 }
