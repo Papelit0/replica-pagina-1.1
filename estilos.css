@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.barra,
+.quienSoy,
+.rojo,
+.proyectos,
+.pie {
+    padding-left: 18%;
+    padding-right: 18%;
+}
+.boton {
+    background-color: #ff3b19;
+    color: #ffffff;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 13px;
+}
+.barra {
+    background-color: #2b303a;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    color: #ffffff;
+    font-size: 20px;
+}
+.logo span {
+    color: #cccccc;
+    font-weight: normal;
+}
+.links a {
+    color: #cccccc;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.quienSoy {
+    background-color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ladoIzq {
+    width: 46%;
+}
+
+.ladoIzq img {
+    width: 100%;
+    border-radius: 8px;
+}
+.ladoDer {
+    width: 48%;
+}
+
+.tituloRojo {
+    color: #ff3b19;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+.parrafo {
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.rojo {
+    background-color: #ff3b19;
+    color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.fotoRedonda {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%; 
+    margin-bottom: 15px;
+}
+.texto {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+.nombre {
+    font-style: italic;
+    font-size: 14px;
+}
+.proyectos {
+    background-color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.titulo {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #333333;
+}
