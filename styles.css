@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.barra,
+.quienSoy,
+.rojo,
+.proyectos,
+.pie {
+    padding-left: 16%;
+    padding-right: 16%;
+}
+
+.boton {
+    background-color: #ff3b19;
+    color: #ffffff;
+    border: 0;
+    padding: 9px 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.barra {
+    background-color: #2b303a;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.logo span {
+    color: #cccccc;
+    font-weight: normal;
+}
+
+.links a {
+    color: #cccccc;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.quienSoy {
+    background-color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ladoIzq {
+    width: 48%;
+}
+
+.ladoIzq img {
+    width: 100%;
+}
+
+.ladoDer {
+    width: 48%;
+}
+
+.tituloRojo {
+    color: #ff3b19;
+    font-size: 32px;
+    margin-bottom: 14px;
+}
+
+.parrafo {
+    color: #666666;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 18px;
+}
+
+.rojo {
+    background-color: #ff3b19;
+    color: #ffffff;
+    padding: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.foto {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+.texto {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+.nombre {
+    font-size: 15px;
+}
+
+.proyectos {
+    background-color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.cajas {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.cajas > div {
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.08);
+    border: 1px solid #eeeeee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 14px;
+    width: 100%;
+}
+
+.cajas img {
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 4px 4px 0 0;
+}
+
+.cajas h3 {
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    color: #333333;
+    font-weight: normal;
+}
+
+.cajas p {
+    font-size: 13px;
+    color: #666666;
+    line-height: 1.5;
+    padding: 0 12px;
+    margin-bottom: 14px;
+    font-weight: normal;
+}
+
+.cajas .boton {
+    margin-top: auto;
+    padding: 7px 15px;
+    font-size: 13px;
+}
+
+.pie {
+    padding: 15px 0px;
+    background-color: #2b303a;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pie p {
+    color: #ffffff;
+    font-size: 14px;
+    text-align: right;
+}
+
+@media (max-width: 1400px) {
+    .barra,
+    .quienSoy,
+    .rojo,
+    .proyectos,
+    .pie {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .cajas {
+        gap: 14px;
+    }
+
+    .cajas img {
+        height: 100px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .barra,
+    .quienSoy,
+    .rojo,
+    .pie {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+
+    .proyectos {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .parrafo {
+        font-size: 15px;
+    }
+
+    .texto {
+        font-size: 16px;
+    }
+
+    .cajas {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+    }
+
+    .cajas img {
+        height: 140px;
+    }
+
+    .cajas h3 {
+        font-size: 17px;
+    }
+
+    .cajas p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .barra,
+    .quienSoy,
+    .rojo,
+    .pie {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+
+    .proyectos {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    .parrafo {
+        font-size: 15px;
+    }
+
+    .texto {
+        font-size: 16px;
+    }
+
+    .cajas {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+    }
+
+    .cajas img {
+        height: 140px;
+    }
+
+    .cajas h3 {
+        font-size: 17px;
+    }
+
+    .cajas p {
+        font-size: 14px;
+    }
+}
+@media (max-width: 600px) {
+    .barra,
+    .quienSoy,
+    .rojo,
+    .proyectos,
+    .pie {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    .barra {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .links a {
+        margin: 0 6px;
+        font-size: 13px;
+    }
+
+    .quienSoy {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        gap: 18px;
+    }
+
+    .ladoIzq,
+    .ladoDer {
+        width: 100%;
+    }
+
+    .ladoIzq img {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .tituloRojo {
+        font-size: 24px;
+    }
+
+    .parrafo {
+        font-size: 13px;
+    }
+
+    .foto {
+        width: 110px;
+        height: 110px;
+    }
+
+    .texto {
+        font-size: 14px;
+    }
+
+    .titulo {
+        font-size: 24px;
+    }
+
+    .cajas {
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+
+    .cajas img {
+        height: 160px;
+    }
+
+    .cajas h3 {
+        font-size: 15px;
+    }
+
+    .cajas p {
+        font-size: 13px;
+        padding: 0 14px 10px 14px;
+    }
+
+    .cajas .boton {
+        font-size: 13px;
+        padding: 7px 14px;
+    }
+
+    .pie {
+        justify-content: center;
+    }
+
+    .pie p {
+        text-align: center;
+        font-size: 12px;
+    }
+}
