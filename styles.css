@@ -5,15 +5,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.barra,
-.quienSoy,
-.rojo,
-.proyectos,
-.pie {
-    padding-left: 16%;
-    padding-right: 16%;
-}
-
 .boton {
     background-color: #ff3b19;
     color: #ffffff;
@@ -27,8 +18,7 @@
 
 .barra {
     background-color: #2b303a;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 15px 16%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -53,8 +43,7 @@
 
 .quienSoy {
     background-color: #ffffff;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px 16%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -88,8 +77,7 @@
 .rojo {
     background-color: #ff3b19;
     color: #ffffff;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px 16%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -116,8 +104,7 @@
 
 .proyectos {
     background-color: #ffffff;
-    padding-top: 40px;
-    padding-bottom: 50px;
+    padding: 40px 16% 50px 16%;
 }
 
 .titulo {
@@ -178,9 +165,8 @@
 }
 
 .pie {
-    padding-top: 15px;
-    padding-bottom: 15px;
     background-color: #2b303a;
+    padding: 15px 16%;
     display: flex;
     justify-content: flex-end;
 }
