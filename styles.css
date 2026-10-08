@@ -27,7 +27,8 @@
 
 .barra {
     background-color: #2b303a;
-    padding: 15px 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -87,7 +88,8 @@
 .rojo {
     background-color: #ff3b19;
     color: #ffffff;
-    padding: 40px 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -176,7 +178,8 @@
 }
 
 .pie {
-    padding: 15px 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: #2b303a;
     display: flex;
     justify-content: flex-end;
@@ -219,46 +222,6 @@
     .proyectos {
         padding-left: 10%;
         padding-right: 10%;
-    }
-
-    .parrafo {
-        font-size: 15px;
-    }
-
-    .texto {
-        font-size: 16px;
-    }
-
-    .cajas {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 20px;
-    }
-
-    .cajas img {
-        height: 140px;
-    }
-
-    .cajas h3 {
-        font-size: 17px;
-    }
-
-    .cajas p {
-        font-size: 14px;
-    }
-}
-
-@media (max-width: 1024px) {
-    .barra,
-    .quienSoy,
-    .rojo,
-    .pie {
-        padding-left: 7%;
-        padding-right: 7%;
-    }
-
-    .proyectos {
-        padding-left: 8%;
-        padding-right: 8%;
     }
 
     .parrafo {
